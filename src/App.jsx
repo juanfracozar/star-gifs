@@ -7,7 +7,7 @@ export const App = () => {
     
     const onAddCategory = ( newCategory ) => {
         if ( categories.includes(newCategory) ) return;
-        setCategories([ newCategory, ...categories ]);
+        setCategories([ newCategory ]);
     }
     
 
@@ -15,6 +15,7 @@ export const App = () => {
         <>
 
             <h1>Star Gifs App</h1>
+            <p>Buscador de Gifs del universo STAR WARS</p>
 
     
             <InputSearch 
